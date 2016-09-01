@@ -115,7 +115,7 @@ public class MenuListFragment extends BaseFragment implements MenusContract.View
                     fragment.setSharedElementEnterTransition(new FragmentHelper.DetailTransition());
                     startFragment(getParentFragment() == null ? MenuListFragment.this : getParentFragment(), fragment, holder.getImageView(R.id.id_iv_menu_pic), "MenuPic");
                 } else {
-                    startFragment(getParentFragment() == null ? MenuListFragment.this : getParentFragment(), null ,null);
+                    startFragment(getParentFragment() == null ? MenuListFragment.this : getParentFragment(), fragment, null ,null);
                 }
             }
         });

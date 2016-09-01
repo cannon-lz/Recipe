@@ -92,5 +92,6 @@ public class SeeFullScreenFragment extends BaseFragment {
     @OnPageChange(R.id.id_vp_step_pic)
     void onPagerSelected(int position) {
         mTvStep.setText(mSteps.get(position).step);
+        getHostActivity().getSupportActionBar().setTitle(String.format("第 %s 步", ++position));
     }
 }
