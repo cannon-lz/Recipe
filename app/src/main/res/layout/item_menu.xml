@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_ll_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/id_iv_menu_pic"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:contentDescription="@string/the_menu_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/perch_bg"
+        android:transitionName="%sMenuPic"/>
+
+    <TextView
+        android:id="@+id/id_tv_menu_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:maxLines="1"
+        android:text="经典港式鲜虾云吞面"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/id_tv_menu_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="16dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="鲜美辽足的一晚鲜美辽足的一晚鲜美辽足的一晚鲜美辽足的一晚" />
+</LinearLayout>

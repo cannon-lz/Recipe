@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/id_view_indicator"
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:id="@+id/id_tv_indicator_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+</merge>
