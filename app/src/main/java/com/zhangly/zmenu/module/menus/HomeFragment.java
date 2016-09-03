@@ -68,7 +68,7 @@ public class HomeFragment extends BaseFragment {
             final InputMethodManager inputMethodManager = (InputMethodManager) textView.getContext().getSystemService(Context.INPUT_METHOD_SERVICE);
             inputMethodManager.hideSoftInputFromWindow(getActivity().getCurrentFocus().getWindowToken(), InputMethodManager.HIDE_NOT_ALWAYS);
             String keyword = textView.getText().toString();
-            final MenuListFragment menuListFragment = MenuListFragment.newFragment(keyword, true);
+            final MenuListFragment menuListFragment = MenuListFragment.newFragment(keyword, true, true);
             new MenusPresenter(menuListFragment, keyword);
             startFragment(menuListFragment, null, null);
             return true;

@@ -71,7 +71,7 @@ public class MenuDetailsFragment extends BaseFragment {
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                getChildFragmentManager().popBackStackImmediate();
+                getFragmentManager().popBackStackImmediate();
             }
         });
         return view;
